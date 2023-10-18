@@ -141,5 +141,5 @@ cartButton.onclick = () => {
   text += "The total amount is " + "$" + finalDollars + "." + finalCents
   console.log("text:", text);
 
-  window.open("https://wa.me/8264651759?text="+text,"_self")
+  window.open("https://wa.me/8264651759?text="+text)
 };
